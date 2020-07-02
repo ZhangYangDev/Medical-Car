@@ -39,18 +39,12 @@
         data() {
             return {
                 list: [
-						{id: 'view',
-						 name: '视图容器',
-						 open: false,
+						{
+						 id: 'views',
+						 name: '自定义页面',
+						 open: true,
 						 pages: [
-						            'login',
-						            'scroll-view',
-						            'swiper'
-						            // #ifndef MP-TOUTIAO
-						            ,
-						            'movable-view',
-						            'cover-view'
-						            // #endif
+						            'login'
 						        ]
 						    },{
                         id: 'view',

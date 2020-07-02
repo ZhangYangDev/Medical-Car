@@ -310,15 +310,15 @@
 			}
 		}
 	    ,{ // 首页
-            "path" : "pages/index/index",
+            "path" : "pages/component/index/index",
             "style" : {
 				"navigationBarTitleText": "首页"
 			}
         },
 		{ // 登录
-		    "path" : "pages/login/login",
+		    "path" : "pages/component/login/login",
 		    "style" : {
-				"navigationBarTitleText": "登录"
+				"navigationBarTitleText": "login"
 			}
 		}
     ],

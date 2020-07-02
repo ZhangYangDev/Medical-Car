@@ -1,7 +1,7 @@
 <template name="page-foot">
 	<view class="page-share-title">
-		<text>感谢{{name}}提供本示例，</text>
-		<text class="submit" @tap="submit">我也提交</text>
+		<text>{{name}}若您的手机号未注册，将为您自动注册。注册或登录即代表您同意我们的</text>
+		<text class="submit" @tap="submit">服务协议</text>和<text class="submit" @tap="submit">隐私政策</text>。
 	</view>
 </template>
 
@@ -11,7 +11,7 @@
 		props: {
 			name: {
 				type: String,
-				default: ""
+				// default: "上海连为科技有限公司"
 			}
 		},
 		methods: {
